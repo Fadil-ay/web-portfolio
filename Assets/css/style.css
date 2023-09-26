@@ -18,8 +18,10 @@
       /* Change the first number */
       /* Blue: 207 - purple: 250 - pink: 365 - Teal: 174 */
       --gradient-color: linear-gradient(180deg,
-                        hsla(250, 48%, 72%, 0),
-                        hsla(250, 65%, 65%, 1));
+                        hsla(251, 73%, 6%, 0),
+                        rgb(123, 218, 247),
+                        hsl(207, 76%, 72%));
+                        
 
       
       /* ========== Font and typography ==========*/
@@ -877,14 +879,17 @@ body.dark-theme{
 }
 
 .contact__form .contact__button{
-      border: none;
-      background: none;
-      font-size: var(--h2-font-size);
-      font-family: var(--title-font);
+
+      padding: 10px 20px; 
+      background-color: #2b2b2b; 
+      color: #fff; 
+      border: none; 
+      border-radius: 5px;
+      font-size: var(--h3-font-size);
       font-weight: var(--font-semi-bold);
+      font-family: var(--title-font);
       cursor: pointer;
-      outline: none;
-      margin-top: .75rem;
+      margin-top: .15rem;
 }
 
 .contact__form .contact__button i{
